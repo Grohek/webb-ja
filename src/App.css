@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding-top: 180px;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  z-index: 1;
+}
+
+.fixed-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.fixed-nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.fixed-nav button {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.title {
+  color: #333;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+/*gallery*/
+
+.gallery-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.gallery-item {
+  position: relative; 
+  width: calc(33.33% - 10px);
+  height: auto;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+.gallery-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contact-section {
+  padding: 20px;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+}
+
+.contact-section h2 {
+  font-size: 20px;
+}
+
+.contact-section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
